@@ -1,0 +1,4 @@
+O graphQl basicamente é um sistema de consulta em grafos. Ou seja, por exemplo ao inves de uma Rest API
+que de acordo com determinado endpoint pega tudo relacionado a ela ex: /cli que vai pegar tudo relacionado
+a ele, o GraphQl tu tem apenas 1 endpoint /api que atraves dele você faz um post enviando um body ( query ),
+que te retorna esses dados.

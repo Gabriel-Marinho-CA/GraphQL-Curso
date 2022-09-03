@@ -1,0 +1,30 @@
+type Mutation  {
+    novoUsuario(
+        dados:UsuarioInput!
+    ): Usuario!
+
+    excluirUsuario(
+        filtro: UsuarioFiltro!
+    ): Usuario
+
+    alterarUsuario(
+        dados:UsuarioInput!
+        filtro: UsuarioFiltro!
+    ): Usuario
+
+
+    adicionaPerfil(
+        novoPerfil:inputPerfil!
+    ): Perfil!
+
+    excluirPerfil(
+        perfilExcluido: FiltroPerfil!
+    ): Perfil
+
+    alteraPerfil(
+        dados:inputPerfil!
+        filtro: FiltroPerfil!
+    ): Perfil!
+}
+
+# A mutation vai retornar um usuario
